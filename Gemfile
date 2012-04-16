@@ -6,10 +6,9 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
-gem 'sqlite3', '1.3.5'
+	gem 'sqlite3', '1.3.5'
 end
 
-gem 'json'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -38,4 +37,4 @@ gem 'jquery-rails', '2.0.0'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug'
+# gem 'ruby-debug19', :require => 'ruby-debug'
